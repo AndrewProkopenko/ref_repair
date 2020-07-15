@@ -2790,7 +2790,24 @@ button.swiper-pagination-bullet {
         -webkit-box-pack: center;
         -webkit-justify-content: center;
             -ms-flex-pack: center;
-                justify-content: center; }
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto; }
+        .ref-main_background__content_form_group > span {
+          width: 100%; }
+          .ref-main_background__content_form_group > span input {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10px;
+            text-align: center; }
+        .ref-main_background__content_form_group button {
+          width: 100%;
+          text-align: center; }
       .ref-main_background__content_form span {
         text-align: center; }
   .ref-price {
@@ -2834,6 +2851,17 @@ button.swiper-pagination-bullet {
     .ref-calc h3 {
       text-align: center;
       line-height: 35px; }
+    .ref-calc .ref-main_background__content_form_group {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .ref-calc .ref-main_background__content_form_group input {
+        margin-bottom: 10px; }
+      .ref-calc .ref-main_background__content_form_group input, .ref-calc .ref-main_background__content_form_group button {
+        width: 100%;
+        text-align: center; }
   .ref-about {
     margin-top: 30px; }
     .ref-about_item h3 {
@@ -2917,9 +2945,46 @@ button.swiper-pagination-bullet {
             align-items: center;
     margin-top: 20px; }
     .ref-last-contact_item {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
       .ref-last-contact_item__image {
         padding: 40px; }
+      .ref-last-contact_item__phone {
+        padding-top: 15px;
+        padding-bottom: 15px; }
+      .ref-last-contact_item__form > span {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5px; }
+      .ref-last-contact_item__form-input {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        .ref-last-contact_item__form-input span {
+          width: 100% !important; }
+          .ref-last-contact_item__form-input span:first-child {
+            margin-bottom: 10px;
+            margin-right: 0; }
+        .ref-last-contact_item__form-input input {
+          width: 100% !important;
+          text-align: center; }
+      .ref-last-contact_item__form-comment {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        .ref-last-contact_item__form-comment textarea {
+          width: 100%;
+          margin-bottom: 10px;
+          text-align: center; }
+        .ref-last-contact_item__form-comment button {
+          width: 100%;
+          margin-bottom: 10px; }
+      .ref-last-contact_item__form-span {
+        text-align: center; }
   .ref-footer-block {
     margin-left: 0; }
     .ref-footer-block_items {
@@ -3072,8 +3137,6 @@ button.swiper-pagination-bullet {
     .ref-last-contact_item__image {
       display: none; }
     .ref-last-contact_item__phone {
-      padding-top: 20px;
-      padding-bottom: 20px;
       padding-left: 30px;
       margin: 0 auto;
       text-align: center; }
@@ -3262,10 +3325,15 @@ button.swiper-pagination-bullet {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
+    header.sticky .electro-header_collapse__tools-phone .number {
+      margin-right: 0; }
   header.sticky .electro-header_menu a {
+    -webkit-transition: 0ms !important;
+    -o-transition: 0ms !important;
+    transition: 0ms !important;
     padding: 0 50px; }
   .electro-header_collapse__tools-phone .number {
-    min-width: 160px; } }
+    margin-right: 30px; } }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .ref-main_image__text {
