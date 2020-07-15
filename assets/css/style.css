@@ -1170,8 +1170,7 @@ header.sticky {
   position: relative; }
   .ref-last-map {
     height: 540px;
-    margin-top: 30px;
-    background: #ffea71; }
+    margin-top: 30px; }
   .ref-last-contact {
     position: absolute;
     bottom: 45px;
@@ -2506,6 +2505,14 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 1200px) {
   .electro-header_collapse__tools-phone {
     padding-left: 20px; }
+    .electro-header_collapse__tools-phone .number {
+      padding-right: 20px; }
+  .electro-header_collapse__tools-select {
+    width: 40%; }
+  .electro-header_menu a:first-child {
+    margin-left: 60px; }
+  .ref-main_background__content {
+    padding-left: 50px; }
   .ref-last-contact_item__image {
     padding: 20px; }
   .ref-last-contact_item__form {
@@ -2603,6 +2610,8 @@ button.swiper-pagination-bullet {
         margin-top: 10px;
         margin-right: 0;
         color: #000; }
+        .electro-header_menu a:first-child {
+          margin-left: 0; }
       .electro-header_menu a:after {
         display: none; }
   .ref-main_background {
@@ -2628,7 +2637,8 @@ button.swiper-pagination-bullet {
             -ms-flex-pack: center;
                 justify-content: center; }
       .ref-main_background__content_form span {
-        text-align: center; }
+        text-align: center;
+        margin-left: 0; }
   .ref-calc {
     background-image: none !important;
     background-color: #f1f5f9;
@@ -2965,7 +2975,9 @@ button.swiper-pagination-bullet {
       -webkit-box-pack: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      margin-right: 0;
+      padding-right: 0; }
     .electro-header_collapse__tools-phone .btn-custom {
       width: 100%;
       margin-top: 15px;
