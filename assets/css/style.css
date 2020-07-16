@@ -31,7 +31,7 @@
   font-display: block; }
 
 @font-face {
-  font-family: 'Circe';
+  font-family: 'Circe-700';
   src: url("../fonts/Circe/Circe-Bold.eot");
   src: local("Circe Bold"), local("Circe-Bold"), url("../fonts/Circe/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-Bold.woff") format("woff"), url("../fonts/Circe/Circe-Bold.ttf") format("truetype");
   font-weight: bold;
@@ -39,7 +39,7 @@
   font-display: block; }
 
 @font-face {
-  font-family: 'Circe';
+  font-family: 'Circe-800';
   src: url("../fonts/Circe/Circe-ExtraBold.eot");
   src: local("Circe ExtraBold"), local("Circe-ExtraBold"), url("../fonts/Circe/Circe-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-ExtraBold.woff") format("woff"), url("../fonts/Circe/Circe-ExtraBold.ttf") format("truetype");
   font-weight: 800;
@@ -62,7 +62,7 @@ html, body {
   padding: 12px 25px;
   font-size: 16px;
   line-height: 16px;
-  font-weight: 700;
+  font-family: 'Circe-700';
   border: 0;
   outline: 0;
   white-space: nowrap;
@@ -148,7 +148,7 @@ textarea:focus {
     .service-modal-container__item h6 {
       font-size: 18px;
       line-height: 20px;
-      font-weight: 700;
+      font-family: 'Circe-700';
       color: #000000;
       text-align: center;
       margin-bottom: 0; }
@@ -205,7 +205,7 @@ textarea:focus {
         transition: 300ms ease-in-out; }
         .service-modal-container__item form .btn-cont button span {
           font-size: 14px;
-          font-weight: 800;
+          font-family: 'Circe-800';
           color: #fff; }
         .service-modal-container__item form .btn-cont button:hover {
           -webkit-box-shadow: 0 3px 10px 5px rgba(0, 0, 0, 0.17);
@@ -216,7 +216,7 @@ textarea:focus {
       text-align: center;
       font-size: 12px;
       line-height: 12px;
-      font-weight: 400; }
+      font-family: 'Circe'; }
 
 .modal-header {
   height: 80px;
@@ -279,13 +279,13 @@ header.sticky {
       color: #000;
       font-size: 18px;
       line-height: 18px;
-      font-weight: 800; }
+      font-family: 'Circe-800'; }
       .electro-header_logo__text div span {
         color: #ff7100 !important; }
       .electro-header_logo__text div:last-child {
         line-height: 12px;
         font-size: 12px;
-        font-weight: 400; }
+        font-family: 'Circe'; }
   .electro-header_collapse {
     display: -webkit-box;
     display: -webkit-flex;
@@ -332,7 +332,7 @@ header.sticky {
             transition: 300ms ease;
             white-space: nowrap;
             font-size: 14px;
-            font-weight: 700; }
+            font-family: 'Circe-700'; }
             .electro-header_collapse__tools-phone .number a:hover {
               text-decoration: none;
               color: #d6d6d6; }
@@ -422,7 +422,7 @@ header.sticky {
               justify-content: center;
       height: 100%;
       font-size: 1rem;
-      font-weight: 600;
+      font-family: 'Circe-700';
       color: #fff;
       margin-right: 40px;
       -webkit-transition: 300ms ease;
@@ -521,10 +521,10 @@ header.sticky {
     .ref-main_background__content h1 {
       color: #fff;
       font-size: 50px;
-      font-weight: 800; }
+      font-family: 'Circe-800'; }
     .ref-main_background__content h5 {
       font-size: 22px;
-      font-weight: 400;
+      font-family: 'Circe';
       color: #fff;
       margin-bottom: 0; }
     .ref-main_background__content_trig {
@@ -533,7 +533,7 @@ header.sticky {
       display: -ms-flexbox;
       display: flex;
       color: #fff;
-      font-weight: 400;
+      font-family: 'Circe';
       margin-top: 40px; }
       .ref-main_background__content_trig .item {
         display: -webkit-box;
@@ -569,7 +569,7 @@ header.sticky {
             font-size: 12px; }
           .ref-main_background__content_trig .item > div span:last-child {
             font-size: 16px;
-            font-weight: 700; }
+            font-family: 'Circe-700'; }
         .ref-main_background__content_trig .item:first-child {
           padding-left: 0; }
         .ref-main_background__content_trig .item:last-child {
@@ -638,7 +638,7 @@ header.sticky {
   .ref-price h3 {
     text-align: center;
     font-size: 25px;
-    font-weight: 700;
+    font-family: 'Circe-700';
     margin-bottom: 40px; }
   .ref-price_item {
     position: relative;
@@ -654,12 +654,12 @@ header.sticky {
       z-index: 10;
       padding: 40px 20px 0 25px; }
       .ref-price_item-text h6 {
-        font-weight: 700;
+        font-family: 'Circe-700';
         font-size: 21px;
         line-height: 21px;
         margin-bottom: 30px; }
       .ref-price_item-text p {
-        font-weight: 700;
+        font-family: 'Circe-700';
         margin: 0;
         font-size: 19px;
         line-height: 19px; }
@@ -720,7 +720,7 @@ header.sticky {
     outline: 0;
     background: none;
     font-size: 14px;
-    font-weight: 400;
+    font-family: 'Circe';
     -webkit-transition: 300ms ease;
     -o-transition: 300ms ease;
     transition: 300ms ease; }
@@ -766,7 +766,7 @@ header.sticky {
   .ref-calc h3 {
     color: #312f3d;
     font-size: 36px;
-    font-weight: 800;
+    font-family: 'Circe-800';
     margin: 0; }
   .ref-calc__image {
     position: absolute;
@@ -810,7 +810,7 @@ header.sticky {
   .ref-about_item h3 {
     font-size: 37px;
     line-height: 40px;
-    font-weight: 800;
+    font-family: 'Circe-800';
     color: #000;
     text-transform: uppercase;
     margin-bottom: 0; }
@@ -856,7 +856,7 @@ header.sticky {
       z-index: 10;
       font-size: 30px;
       line-height: 38px;
-      font-weight: 800;
+      font-family: 'Circe-800';
       text-transform: uppercase;
       color: #fff;
       margin-bottom: 0; }
@@ -881,12 +881,11 @@ header.sticky {
     .ref-five_form h5 {
       font-size: 22px;
       line-height: 22px;
-      font-weight: 700;
+      font-family: 'Circe-700';
       text-align: center;
       margin-bottom: 5px; }
     .ref-five_form p {
       font-size: 16px;
-      font-weight: 400;
       line-height: 16px;
       text-align: center;
       margin-bottom: 25px; }
@@ -938,7 +937,7 @@ header.sticky {
 .ref-review {
   margin-top: 90px; }
   .ref-review h3 {
-    font-weight: 700;
+    font-family: 'Circe-700';
     font-size: 25px;
     text-align: center;
     margin-bottom: 30px; }
@@ -969,7 +968,7 @@ header.sticky {
               flex-direction: column;
       padding-left: 15px; }
       .ref-review_item-content h5 {
-        font-weight: 700;
+        font-family: 'Circe-700';
         font-size: 15px;
         line-height: 15px;
         margin-bottom: 0; }
@@ -999,7 +998,7 @@ header.sticky {
             display: inline-block;
             white-space: nowrap;
             font-size: 15px;
-            font-weight: 700; }
+            font-family: 'Circe-700'; }
       .ref-review_item-content_text {
         margin-right: 15px;
         -webkit-box-flex: 1;
@@ -1013,7 +1012,7 @@ header.sticky {
           line-height: 14px; }
         .ref-review_item-content_text span {
           font-size: 13px;
-          font-weight: 700; }
+          font-family: 'Circe-700'; }
 
 .swiper-footer {
   position: relative;
@@ -1104,7 +1103,7 @@ header.sticky {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .ref-question_header h3 {
-      font-weight: 800;
+      font-family: 'Circe-800';
       font-size: 38px;
       line-height: 38px;
       margin-bottom: 0; }
@@ -1267,14 +1266,14 @@ header.sticky {
         .ref-last-contact_item__phone h3 {
           font-size: 34px;
           line-height: 34px;
-          font-weight: 800;
+          font-family: 'Circe-800';
           margin-bottom: 10px; }
         .ref-last-contact_item__phone a {
           color: #fff;
           display: inline-block;
           font-size: 26px;
           line-height: 30px;
-          font-weight: 800;
+          font-family: 'Circe-800';
           margin-bottom: 5px;
           padding: 3px 5px 1px 5px;
           border-radius: 4px;
@@ -1452,7 +1451,7 @@ footer {
           display: inline-block;
           font-size: 14px;
           line-height: 14px;
-          font-weight: 700;
+          font-family: 'Circe-700';
           color: #000;
           margin-right: 20px;
           -webkit-transition: 300ms ease;
@@ -1477,7 +1476,7 @@ footer {
         color: #ff7100; }
       .ref-footer-block_items_tools .btn-custom button {
         font-size: 14px !important;
-        font-weight: 800 !important; }
+        font-family: 'Circe-800'; }
     .ref-footer-block_policy a {
       font-size: 12px;
       line-height: 14px;
