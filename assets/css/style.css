@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Circe';
   src: url("../fonts/Circe/Circe-Regular.eot");
-  src: local("Circe"), local("Circe-Regular"), url("../fonts/Circe/Circe-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-Regular.woff") format("woff"), url("../fonts/Circe/Circe-Regular.ttf") format("truetype");
+  src: local("Circe"), local("Circe-Regular"), url("../fonts/Circe/Circe-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Circe-700';
   src: url("../fonts/Circe/Circe-Bold.eot");
-  src: local("Circe Bold"), local("Circe-Bold"), url("../fonts/Circe/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-Bold.woff") format("woff"), url("../fonts/Circe/Circe-Bold.ttf") format("truetype");
+  src: local("Circe Bold"), local("Circe-Bold"), url("../fonts/Circe/Circe-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: block; }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'Circe-800';
   src: url("../fonts/Circe/Circe-ExtraBold.eot");
-  src: local("Circe ExtraBold"), local("Circe-ExtraBold"), url("../fonts/Circe/Circe-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-ExtraBold.woff") format("woff"), url("../fonts/Circe/Circe-ExtraBold.ttf") format("truetype");
+  src: local("Circe ExtraBold"), local("Circe-ExtraBold"), url("../fonts/Circe/Circe-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: block; }
